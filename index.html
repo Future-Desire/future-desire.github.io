@@ -15,31 +15,74 @@
 </head>
 
 <body>
-    <h1>My Test Website</h1>
+    <main>
+        <h1>Exploring Rust for Web</h1>
 
-    <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog/index.html">Blog</a></li>
-        <li><a href="projects/index.html">Projects</a></li>
-    </ul>
+        <hr />
 
-    <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="projects/index.html">Projects</a></li>
+            </ul>
+        </nav>
 
-    <p>I am learning to use <a href="https://www.rust-lang.org/">Rust 🦀</a>, and exploring its <a
-            href="https://www.arewewebyet.org/">web dev</a> capabilities!
-    </p>
-    <img src="images/rust-logo.png" alt="The Official Rust Language Logo" />
+        <hr />
 
-    <p>Rust is a language empowering everyone to build reliable and efficient software. </p>
-    <p> Why Rust? </p>
-    <ul> <!-- changed to list in the tutorial -->
-        <li>Performance</li>
-        <li>Reliability</li>
-        <li>Productivity</li>
-    </ul>
+        <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
 
-    <p>Be sure to check out the <a href="https://www.rust-lang.org/learn">Rust learning page</a> to get started with
-        Rust!</p>
+        <p>I am learning to use <a href="https://www.rust-lang.org/">Rust 🦀</a>, and exploring its <a
+                href="https://www.arewewebyet.org/">web dev</a> capabilities!
+        </p>
+        <img src="images/rust-logo.png" alt="The Official Rust Language Logo" />
+
+        <p>Rust is a language empowering everyone to build reliable and efficient software. </p>
+
+        <hr />
+
+        <h2> Why Rust? </h2>
+
+        <dl>
+            <dt>Performance</dt>
+            <dd>
+                Rust is blazingly fast and memory-efficient: with no runtime or garbage collector, it can power
+                performance-critical services, run on embedded devices, and easily integrate with other languages.
+            </dd>
+            <dt>Reliability</dt>
+            <dd>
+                Rust’s rich type system and ownership model guarantee memory-safety and thread-safety — enabling you to
+                eliminate many classes of bugs at compile-time.
+            </dd>
+            <dt>Productivity</dt>
+            <dd>
+                Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling — an
+                integrated package manager and build tool, smart multi-editor support with auto-completion and type
+                inspections, an auto-formatter, and more.
+            </dd>
+        </dl>
+
+        <p>Be sure to check out the <a href="https://www.rust-lang.org/learn">Rust learning page</a> to get started with
+            Rust!</p>
+
+        <hr />
+
+        <h2>Example Code</h2>
+
+        <pre>$ <kbd>cargo new hello_world</kbd></pre>
+        <pre><code>  fn main() {
+        println!("Hello, world!");
+    }</code></pre>
+
+        <pre>$ <kbd>cargo run</kbd>
+    <samp>Hello, world!
+    64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+        <hr />
+    </main>
+
+    <footer>
+        <p>©Copyright 2024 by Someone. All rights reversed.</p>
+    </footer>
 
 </body>
 

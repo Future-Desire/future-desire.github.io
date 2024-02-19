@@ -13,16 +13,32 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    color: #90754e;
-    text-shadow: 3px 3px 1px black;
+    color: #8D4A25;
+    /* text-shadow: 3px 3px 1px black; */
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #8D4A25;
+    /* text-shadow: 3px 3px 1px black; */
+}
+
+dt {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
 
 p,
-li {
+li,
+dd {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
@@ -32,4 +48,22 @@ img {
     display: block;
     margin: 0 auto;
     width: 50%;
+}
+
+pre {
+    font-size: 12px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #8D4A25;
 }
