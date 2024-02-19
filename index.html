@@ -35,7 +35,14 @@
         <p>I am learning to use <a href="https://www.rust-lang.org/">Rust 🦀</a>, and exploring its <a
                 href="https://www.arewewebyet.org/">web dev</a> capabilities!
         </p>
-        <img src="images/rust-logo.png" alt="The Official Rust Language Logo" />
+
+        <figure>
+            <img src="images/rust-logo.png" alt="The Official Rust Language Logo"
+                title="The Official Rust Language Logo" />
+            <figcaption>
+                The Official Rust Language Logo, by the Rust Foundation under CC BY 4.0
+            </figcaption>
+        </figure>
 
         <p>Rust is a language empowering everyone to build reliable and efficient software. </p>
 
@@ -69,20 +76,25 @@
 
         <h2>Example Code</h2>
 
-        <pre>$ <kbd>cargo new hello_world</kbd></pre>
+        <pre>$ <kbd>cargo new hello_world && cd hello_world</kbd></pre>
         <pre><code>  fn main() {
         println!("Hello, world!");
     }</code></pre>
 
         <pre>$ <kbd>cargo run</kbd>
-    <samp>Hello, world!
-    64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+    <samp>Compiling hello_world v0.1.0 (./hello_world)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+    Running `target/debug/hello_world`
+    Hello, world!</samp></pre>
         <hr />
+
     </main>
 
     <footer>
         <p>©Copyright 2024 by Someone. All rights reversed.</p>
     </footer>
+
+
 
 </body>
 

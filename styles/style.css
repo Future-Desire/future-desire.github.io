@@ -67,3 +67,10 @@ code {
     border-radius: 5px;
     color: #8D4A25;
 }
+
+figcaption {
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 0;
+    color: #8D4A25;
+}
